@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:id="@+id/linearLayout1" 
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content">
+        <TextView android:id="@+id/lblSetUp" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:text="SetUp" android:textAppearance="?android:attr/textAppearanceMedium">
+        </TextView>
+        <EditText android:id="@+id/txtStore" 
+        	android:inputType="text"
+        	android:textSize="20sp"
+        	android:hint="Enter Store Id"
+        	android:layout_height="wrap_content" android:layout_width="fill_parent">
+            <requestFocus></requestFocus>
+        </EditText>
+        <EditText android:id="@+id/txtDriver"
+        	android:inputType="text"
+        	android:textSize="20sp"
+        	android:hint="Enter Driver" 
+        	android:layout_height="wrap_content" android:layout_width="fill_parent">
+        </EditText>
+        <EditText android:id="@+id/txtAdmin"
+        	android:inputType="text"
+        	android:textSize="20sp"
+        	android:hint="Enter Aministrator" 
+        	android:layout_height="wrap_content" android:layout_width="fill_parent">
+        </EditText>
+        <EditText android:id="@+id/txtPassword"
+        	android:inputType="text"
+        	android:textSize="20sp"
+        	android:hint="Enter Admin Password" 
+        	android:layout_height="wrap_content" android:layout_width="fill_parent">
+        </EditText>
+        <TableLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+            android:orientation="horizontal" android:stretchColumns="0,1">
+            <TableRow android:gravity="fill" >
+        		<CheckBox android:text="Delivery By Driver" android:id="@+id/checkId" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+        		<CheckBox android:text="Sign Multiple" android:id="@+id/checkSign" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+            </TableRow>
+         	<TableRow android:gravity="fill" >
+		        <CheckBox android:text="SignAgain" android:id="@+id/reSign" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+        		<CheckBox android:text="MainMenu" android:id="@+id/mainMenu" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+            </TableRow>
+         	<TableRow android:gravity="fill" >
+		        <CheckBox android:text="ClearSend" android:id="@+id/clearSend" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+            </TableRow>
+         	<TableRow android:gravity="fill" >
+		        <Button android:text="Verify ID" android:id="@+id/test_connect" style="@style/Button1"></Button>
+        		<Button android:text="Verify Driver" android:id="@+id/test_driver" style="@style/Button1"></Button>
+            </TableRow>
+         	<TableRow android:gravity="fill" >
+		        <Button android:text="Clear Data" android:id="@+id/clear_data" style="@style/Button1"></Button>                
+        		<Button android:text="Save" android:id="@+id/save_data" style="@style/Button1"></Button>
+            </TableRow>
+        </TableLayout>
+     </LinearLayout>

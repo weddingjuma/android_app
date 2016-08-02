@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:id="@+id/linearLayout1" 
+    android:layout_width="fill_parent" android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:text="TextView" android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:visibility="gone"></TextView>
+        <Button android:text="Continue" android:id="@+id/btnExit" 
+            android:visibility="gone" style="@style/Button1" ></Button>
+    	 <ProgressBar
+    	     android:id="@+id/ProgBar"
+    	     style="@android:style/Widget.ProgressBar.Horizontal"
+    	     android:layout_width="wrap_content"
+    	     android:layout_height="wrap_content"
+    	     android:layout_marginRight="5dp" 
+    	     android:visibility="gone"/>
+        </LinearLayout>

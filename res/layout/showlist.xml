@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/linearLayout1" 
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" >
+  	<ListView android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="wrap_content"></ListView>
+    <Button android:text="Done" android:id="@+id/btnExit" style="@style/Button1"></Button>    
+<TextView android:id="@+id/TextView1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:visibility="gone">
+	</TextView>
+</LinearLayout>
+	

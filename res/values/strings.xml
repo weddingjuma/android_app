@@ -1,0 +1,8 @@
+
+    <resources>
+        <color name="white">#FFFFFF</color>
+        <string name="hello">AcsComputers v3.2.4.5</string>
+        <string name="app_name">eDelivery</string>
+        <string name="action_settings">Settings</string>
+        <string name="Login">Login</string>
+    </resources>

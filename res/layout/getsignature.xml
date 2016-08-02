@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/llayout"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<Button android:text="Sign" style="@style/Button1" android:id="@+id/btnSign"></Button>
+	<Button android:text="Cancel" style="@style/Button1" android:id="@+id/btnCancel"></Button>
+	<Button android:text="Done"  style="@style/Button1" android:id="@+id/btnDone"></Button>
+	<ImageView android:id="@+id/view1" android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" android:background="@color/white"></ImageView>
+</LinearLayout>
